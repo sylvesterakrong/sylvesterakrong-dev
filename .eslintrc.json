@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended", 
+    "plugin:import/errors", 
+    "plugin:import/warnings", 
+    "plugin:react/recommended", 
+    "next/core-web-vitals",
+    "prettier"
+  ]
 }
