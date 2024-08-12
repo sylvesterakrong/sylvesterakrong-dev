@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Sylvester Akrong",
-  description: "This is the website for Sylvester Akrong to showcase his works and acheivement.",
+  description: "A portfolio website about Sylvester Akrong to showcase his works and acheivement.",
 };
 
 export default function RootLayout({ children }) {
