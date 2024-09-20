@@ -27,25 +27,25 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className="mb-12 xl:mb-36">
+    <section className="mb-12 mt-[150px]  xl:mb-36">
         <div className="container mx-auto">
-            <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
+            <h2 className="section-title mb-12 xl:mb-24 pb-6 xl:mb-22 text-center mx-auto">
                 ⚙️ My Services
             </h2>
 
             {/*Grid lines*/}
-            <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
+            <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8 sm:gap-y-12 sm:gap-x-5">
                 {servicesData.map((item, index) => {
                     return(
-                        <Card className='w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative' 
+                        <Card className='w-full max-w-[424px] h-[400px] flex flex-col pt-16 pb-12 justify-center items-center relative mb-6' 
                         key={index}>
-                            <CardHeader className='text-primary absolute -top-[75px]'>
-                                <div className="w-[140px] h-[80px] bg-pink-100 dark:bg-background flex justify-center items-center"> 
+                            <CardHeader className='text-primary absolute -top-[70px] '>
+                                <div className="w-[130px] h-[80px] bg-pink-100 dark:bg-background flex justify-center items-center"> 
                                     {item.icon}
                                 </div>
                             </CardHeader>
                             <CardContent className='text-center'>
-                                <CardTitle className='mb-5'>{item.title}</CardTitle>
+                                <CardTitle className='mb-4 mt-4'>{item.title}</CardTitle>
                                 <CardDescription className='text-lg'>{item.description}</CardDescription>
                             </CardContent>
                         </Card>
