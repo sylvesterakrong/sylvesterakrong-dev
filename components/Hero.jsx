@@ -6,8 +6,6 @@ import { Download, Send } from "lucide-react"
 import Robot from '@/public/hero/Robot.json';
 import Lottie from 'lottie-react'
 import {
-    RiBriefcase2Fill,
-    RiTeamFill,
     RiTodoFill,
     RiArrowDownSLine,
     RiBriefcase4Fill
