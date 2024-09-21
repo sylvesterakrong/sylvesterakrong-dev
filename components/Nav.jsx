@@ -8,8 +8,10 @@ const links = [
     { path: '/contact', name: 'Contact me' },
 ];
 
-const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
+const Nav = ({ containerStyles, linkStyles, underlineStyles, onNavClick}) => {
     const path = usePathname();
+
+
     return (
         <nav className={containerStyles}> 
             {links.map((link, index) => (
@@ -17,6 +19,7 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
                     href={link.path} 
                     key={index} 
                     className={`capitalize ${linkStyles}`}
+                    onClick={onNavClick}
                 >
                     {link.path === path && (
                         <motion.span 
