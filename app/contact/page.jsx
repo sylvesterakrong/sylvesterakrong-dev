@@ -4,7 +4,6 @@ import Lottie from 'lottie-react'
 import Robot from '@/public/hero/Robot.json';
 import Form from "@/components/Form";
 
-
 const Contacts = () => {
   return (
     <section>
