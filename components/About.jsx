@@ -174,12 +174,12 @@ const About = () => {
                                             )
                                         })}
                                     </div>
-                                    {/*languages */}
+                                    {/* languages
                                     <div className="flex flex-col gap-y-2">
                                         <div className="text-primary">Languages Skills</div>
                                         <div className="border-b border-border"></div>
                                             <div>Fluent in English</div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </TabsContent>
                             {/*Qualifications Info*/}
